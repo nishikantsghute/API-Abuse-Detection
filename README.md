@@ -1,4 +1,4 @@
-# API Abuse Detection — ML Pipeline
+# API Abuse Detection - ML Pipeline
 
 End-to-end notebook that classifies API traffic sessions as **normal** or **outlier** (abusive) using session-level behavioral statistics and API call-graph structure. The classifier is a Random Forest trained on SMOTE-balanced data, sharing its preprocessing/modeling code with a companion Streamlit app.
 
